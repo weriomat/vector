@@ -1,0 +1,11 @@
+[package]
+name = "xtask"
+version = "0.1.0"
+authors = ["Vector Contributors <vector@datadoghq.com>"]
+edition = "2024"
+publish = false
+
+[dependencies]
+vector.workspace = true
+clap.workspace = true
+clap_complete = "4.5.48"

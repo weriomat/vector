@@ -1,5 +1,6 @@
 [alias]
 vdev = "run --quiet --package vdev --"
+xtask = "run --package xtask --"
 
 [env]
 # Build with large pages so that Vector runs on systems with 64k pages or less (e.g. 4k) to support
